@@ -1,0 +1,39 @@
+# Игнорировать временные файлы и директории
+/node_modules
+/vendor
+/storage/*.key
+/storage/*.log
+/public/hot
+/public/storage
+
+# Игнорировать файлы конфигурации
+.env
+.env.example
+/.env.local
+/.env.production
+/.env.testing
+
+# Игнорировать файлы для IDE и редакторов кода
+/.idea
+*.iml
+*.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Игнорировать сгенерированные файлы и директории
+/artisan
+/composer.phar
+/composer.lock
+/phpunit.xml
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+/vendor/
+
+# Игнорировать файлы для фронтенд-сборки
+/public/build
+/public/dist
+/public/mix-manifest.json
+
+# Игнорировать файлы для тестирования
+/tests/
