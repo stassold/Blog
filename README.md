@@ -38,19 +38,16 @@ sudo apt install php php-cli php-mbstring unzip php-xml
    
     ```bash
     sudo systemctl start mysql
-    ```
 
 4. **Убедитесь, что MySQL запускается автоматически при загрузке:**
    
     ```bash
     sudo systemctl enable mysql
-    ```
 
 5. **Войдите в MySQL:**
    
     ```bash
     mysql -u root -p
-    ```
 
     При установке MySQL по умолчанию, логин 'root' используется с пустым паролем. Однако, в более современных версиях MySQL, по умолчанию может использоваться случайно сгенерированный пароль, и вам будет предоставлен временный пароль при установке.
 
@@ -60,7 +57,6 @@ sudo apt install php php-cli php-mbstring unzip php-xml
 
     ```bash
     sudo mysqladmin -u root password 'новый_пароль'
-    ```
 
     Замените 'новый_пароль' на желаемый новый пароль.
 
@@ -71,7 +67,6 @@ sudo apt install php php-cli php-mbstring unzip php-xml
     ```bash
     mysql -u root -p
     FLUSH PRIVILEGES;
-    ```
 
 Теперь вы можете использовать MySQL на вашем сервере Ubuntu, входя в систему с логином 'root' и указывая пароль, если он установлен.
 
