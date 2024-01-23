@@ -26,13 +26,13 @@ sudo apt install php php-cli php-mbstring unzip php-xml
    
     ```bash
     sudo apt update
-    ```
+
 
 2. **Установите MySQL Server:**
    
     ```bash
     sudo apt install mysql-server
-    ```
+
 
 3. **Запустите MySQL:**
    
