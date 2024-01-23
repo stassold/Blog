@@ -18,7 +18,7 @@
 sudo apt update
 sudo apt install php php-cli php-mbstring unzip php-xml
 ```
-# Установка MySQL на Ubuntu
+### Установка MySQL на Ubuntu
 
 Для установки MySQL на Ubuntu, выполните следующие шаги:
 
